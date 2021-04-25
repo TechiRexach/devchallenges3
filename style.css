@@ -69,7 +69,7 @@ body{
 
 .designed{
     background-color:#181719;
-    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25k);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 300px;
     margin-left: 10px;
 }
@@ -78,7 +78,6 @@ img{
     margin-top: 5px;
     width: 60%;
     border-radius: 50%;
-    background-color: burlywood;
 }
 
 .designer{
@@ -119,3 +118,73 @@ img{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+
+@media screen and (min-width: 960px){
+
+    nav{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .left{
+        height: 600px;
+    }
+
+    .modernInterior{
+        margin-top: 75px;
+        font-size: 48px;
+    }
+    
+    .description{
+        margin-top: 40px;
+        width: 312px;
+        font-size: 24px;
+    }
+    
+    .readmore{
+        width: 29%;
+        margin-top: 48px;
+        font-size: 18px;
+    }
+    
+    .photo{
+        width: auto;
+        height: auto;
+    }
+    
+    .designed{
+        width: 400px;
+        margin-left: 150px;
+        display: grid;
+    }
+    
+    img{
+        margin-top: 5px;
+        width: 90%;
+    }
+    
+    .designer{
+        display: grid;
+        grid-template-columns: 0.2fr 1fr;
+    }
+    
+    .name{
+        font-size: 14px;
+    }
+    
+    .job{
+        font-size: 12px;
+    }
+    
+    .resume{
+        font-size: 24px;
+        width: 70%;
+    }
+    
+}
+
